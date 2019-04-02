@@ -2,7 +2,7 @@ package signal
 
 import "github.com/btcsuite/btclog"
 
-// log is a logger that is initialized with no output filters.  This
+// log is a logger that is initialized with no output filters.  This testing
 // means the package will not perform any logging by default until the caller
 // requests it.
 var log btclog.Logger
